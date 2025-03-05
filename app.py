@@ -10,7 +10,7 @@ import numpy as np
 # from streamlit_lottie import st_lottie
 
 # Load the saved model
-model = tf.keras.models.load_model("C:/Users/HP/Documents/ML/MNSIT/models/model_100.h5", compile=False)
+model = tf.keras.models.load_model("./models/model_100.h5", compile=False)
 # TODO : train generalized model by inverting colour of half of the digits.
 
 
